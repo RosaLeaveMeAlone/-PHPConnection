@@ -1,0 +1,21 @@
+{
+    "name": "mrxlc/phpconnection",
+    "description": "Simple DB Connection",
+    "type": "library",
+    "require": {
+        "symfony/dotenv": "3.4"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Mrxlc\\Connection\\" : ""
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joel Uzcategui",
+            "email": "JoelUzcategui@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
